@@ -300,7 +300,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     break;
                  }
                  console.log("Current num:", currentNum);
-               if(arr[0]=="+"&&arr[0]=="-"&&arr[0]=="*"&&arr[0]=="/"){
+               if(arr[0]!="+"&&arr[0]!="-"&&arr[0]!="*"&&arr[0]!="/"){
                 currentNum=arr.shift();                                                                        
                 }                                                         //getting the first number from the array
                 num1=0;
