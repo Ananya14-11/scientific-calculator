@@ -333,7 +333,7 @@ document.addEventListener("DOMContentLoaded", function () {
              console.log("Final answer:", answer);                                                    //displaying the final answer
              resultDisplay.innerHTML = answer;
 
-        });
+        });                                                                              
            
                                                                                                    //function to get the next number from the array
         
